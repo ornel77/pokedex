@@ -43,10 +43,10 @@ function App() {
     <div>
       <PokemonCard pokemon={pokemonList[pokemonIndex]}/>
       {
-        pokemonIndex > 0 && <button className="precedent" onClick={handlePrecedingClick} >Précedent</button>
+        pokemonIndex > 0 && <button onClick={handlePrecedingClick} >Précedent</button>
       }
       {
-        pokemonIndex < pokemonList.length - 1 && <button className="next" onClick={handleNextClick} >Suivant</button>
+        pokemonIndex < pokemonList.length - 1 && <button onClick={handleNextClick} >Suivant</button>
       }
     </div>
   )
