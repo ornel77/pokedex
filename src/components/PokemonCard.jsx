@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import '../../src/App.css'
 
 function PokemonCard({ pokemon }) {
     return (
