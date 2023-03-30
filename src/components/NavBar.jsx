@@ -6,6 +6,11 @@ function NavBar({pokemonIndex, setPokemonIndex, pokemonList}) {
     const handleNextClick = () => {
         setPokemonIndex(pokemonIndex + 1)
     }
+    
+    if(pokemonIndex === 3) {
+        alert('"pika pikachu !!!"')
+    }
+
     return (
         <div>
             {
