@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types'
+import colors from './colors'
 
 function PokemonCard({ pokemon }) {
     return (
         (
-            <figure>
+            <figure style={{backgroundColor: colors[pokemon.type]}}>
                 {
                     pokemon.imgSrc ? <img src={pokemon.imgSrc} alt={pokemon.name}/> 
                     :

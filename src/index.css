@@ -24,6 +24,7 @@ a:hover {
 }
 
 body {
+  background: url('./pokemon2.jpeg') no-repeat center/cover;
   margin: 0;
   display: flex;
   place-items: center;
