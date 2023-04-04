@@ -8,9 +8,9 @@ function NavBar({pokemonIndex, setPokemonIndex, pokemonList}) {
     }
     
     if(pokemonList[pokemonIndex].name === 'pikachu') {
-       setTimeout(() => {
-           alert('"pika pikachu !!!"')
-       }, 500);
+        setTimeout(() => {
+            alert('"pika pikachu !!!"')
+        }, 500);
     }
 
     return (
